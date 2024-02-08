@@ -1,0 +1,36 @@
+class VehicleRentalService {
+
+
+    void rentVehicle(String vehicleType) {
+        System.out.println("Renting a " + vehicleType);
+    }
+
+
+    void rentVehicle(String vehicleType, int rentalDuration) {
+        System.out.println("Renting a " + vehicleType + " for " + rentalDuration " months.");
+    }
+
+    void rentVehicle(String vehicleType, boolean insurance) {
+        if (luxuryOption) {
+            System.out.println("Renting an insured" + vehicleType);
+        } else {
+            System.out.println("Renting a" + vehicleType);
+        }
+    }
+
+}
+
+class Main {
+    public static void main(String[] args) {
+        RentalService service = new RentalService();
+
+        service.rentVehicle("car");
+
+        service.bookRide("van", 2.5);
+
+        service.bookRide("limousine", true);
+
+
+    }
+}
+
