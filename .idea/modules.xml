@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Encapsulation assignment.iml" filepath="$PROJECT_DIR$/Encapsulation assignment.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism.iml" />
+>>>>>>> de056b3be9b5c2b9d2a1edf3f903238d5a00fc9a
     </modules>
   </component>
 </project>
